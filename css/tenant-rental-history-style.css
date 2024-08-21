@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'Switzer-Variable';
+    src: url('../fonts/Switzer-Variable.woff2') format('woff2'),
+          url('../fonts/Switzer-Variable.woff') format('woff'),
+          url('../fonts/Switzer-Variable.ttf') format('truetype');
+          font-weight: 100 900;
+          font-display: swap;
+          font-style: normal;
+}  
+  
+@font-face {
+    font-family: 'Switzer-Medium';
+    src: url('../fonts/Switzer-Medium.woff2') format('woff2'),
+          url('../fonts/Switzer-Medium.woff') format('woff'),
+          url('../fonts/Switzer-Medium.ttf') format('truetype');
+          font-weight: 500;
+          font-display: swap;
+          font-style: normal;
+}
+  
+  
+@font-face {
+    font-family: 'Switzer-Semibold';
+    src: url('../fonts/Switzer-Semibold.woff2') format('woff2'),
+          url('../fonts/Switzer-Semibold.woff') format('woff'),
+          url('../fonts/Switzer-Semibold.ttf') format('truetype');
+          font-weight: 600;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Bold';
+    src: url('../fonts/Switzer-Bold.woff2') format('woff2'),
+          url('../fonts/Switzer-Bold.woff') format('woff'),
+          url('../fonts/Switzer-Bold.ttf') format('truetype');
+          font-weight: 700;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Extrabold';
+    src: url('../fonts/Switzer-Extrabold.woff2') format('woff2'),
+          url('../fonts/Switzer-Extrabold.woff') format('woff'),
+          url('../fonts/Switzer-Extrabold.ttf') format('truetype');
+          font-weight: 800;
+          font-display: swap;
+          font-style: normal;
+}
+  
+body, html {
+    margin: 0; 
+    padding: 0;
+}
+
+@media (min-width: 465px) {
+    #kpmLogo {
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 464px) {
+    #kpmLogo {
+        max-height: 50px;
+    }
+}
+
+.nav-text {
+    font-size: calc(0.8rem + 1.31vw) !important;
+    font-family: 'Switzer-Semibold' !important;
+    color: #283891 !important;
+}
+
+@media (min-width: 1200px) {
+    .nav-text {
+        font-size: 1.45rem !important;
+        font-family: 'Switzer-Semibold' !important;
+        color: #283891 !important;
+    }
+}
+
+@media (min-width: 1742px) {
+    #hidden-nav {
+        display: none;
+    }
+
+    #hidden-side-nav {
+        display: block;
+    }
+}
+
+@media (max-width: 1741px) {
+    #hidden-nav {
+        display: block;
+    }
+
+    #hidden-side-nav > div {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-text-center {
+      text-align: none !important;
+    }
+  }
+  
+@media (max-width: 767px) {
+    .custom-text-center {
+      text-align: center !important;
+    }
+}
+  
+.btn-signup {
+      font-family: 'Switzer-Semibold' !important;
+  
+      --bs-btn-color: white !important;
+      --bs-btn-bg: #283891 !important;
+      --bs-btn-border-color: #283891 !important;
+      --bs-btn-hover-color: white !important;
+      --bs-btn-hover-bg: #212E7A !important;
+      --bs-btn-hover-border-color: #212E7A !important;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #283891;
+}
+  
+.bg-navbar {
+    background-color: white;
+}
+
+.switzer-extrabold-text {
+    font-family: 'Switzer-ExtraBold';
+    color: #283891;
+}
+  
+.switzer-bold-text {
+    font-family: 'Switzer-Bold';
+    color: #283891;
+}
+  
+.switzer-semibold-text {
+    font-family: 'Switzer-Semibold';
+    color: #283891 !important;
+}
+  
+.switzer-medium-text {
+    font-family: 'Switzer-Medium';
+    color: #283891;
+}
+
+.switzer-extrabold-text-white {
+    font-family: 'Switzer-ExtraBold';
+    color: white;
+}
+
+.switzer-bold-text-white {
+    font-family: 'Switzer-Bold';
+    color: white;
+}
+  
+.switzer-semibold-text-white {
+    font-family: 'Switzer-Semibold';
+    color: white;
+}
+  
+.switzer-medium-text-white {
+    font-family: 'Switzer-Medium';
+    color: white;
+}
+  
+footer {
+    background-color: #A4CAF9;
+}
+  
+.custom-icon-color {
+    color: #283891;
+}
+  
+.footer-text {
+    font-family: 'Switzer-Semibold';
+    color: #283891 !important;
+    font-size: 24px;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+  
+.dataTables_filter {
+float: center;
+}
+
+th {
+    font-family: 'Switzer-Bold' !important;
+    color:#283891 !important;
+    border-bottom: 5px solid #283891 !important;
+}
+
+td {
+    font-family: 'Switzer-Semibold' !important;
+    color:#283891 !important;
+    border-bottom: 2px solid #283891 !important;
+}
+
+@media only screen and (min-width: 768px) {
+.table {
+    table-layout: fixed;
+    max-width: 100% !important;
+}
+}
+
+thead {
+background: #ddd;
+}
+
+.table td:nth-child(2) {
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.highlight {
+background: #ffff99;
+}
+
+@media only screen and (max-width: 1277px) {
+table,
+thead,
+tbody,
+th,
+td,
+tr {
+    display: block;
+}
+
+thead tr,
+tfoot tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50% !important;
+}
+
+td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.table td:nth-child(1) {
+    background: #283891;
+    color: white !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+
+td:nth-of-type(1):before {
+    content: "Status";
+}
+
+td:nth-of-type(2):before {
+    content: "Amount";
+}
+
+td:nth-of-type(3):before {
+    content: "Date";
+}
+
+td:nth-of-type(4):before {
+    content: "Payment Method";
+}
+
+td:nth-of-type(5):before {
+    content: "Actions";
+}
+
+.dataTables_length {
+    display: none;
+}
+}
+
+#paymentHistoryTable td:nth-child(5),
+#paymentHistoryTable th:nth-child(5) {
+  width: 150px;
+}
+
+#paymentHistoryTable .btn {
+    width: 100%;
+}

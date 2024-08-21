@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Switzer-Variable';
+    src: url('../fonts/Switzer-Variable.woff2') format('woff2'),
+          url('../fonts/Switzer-Variable.woff') format('woff'),
+          url('../fonts/Switzer-Variable.ttf') format('truetype');
+          font-weight: 100 900;
+          font-display: swap;
+          font-style: normal;
+}  
+  
+@font-face {
+    font-family: 'Switzer-Medium';
+    src: url('../fonts/Switzer-Medium.woff2') format('woff2'),
+          url('../fonts/Switzer-Medium.woff') format('woff'),
+          url('../fonts/Switzer-Medium.ttf') format('truetype');
+          font-weight: 500;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Semibold';
+    src: url('../fonts/Switzer-Semibold.woff2') format('woff2'),
+          url('../fonts/Switzer-Semibold.woff') format('woff'),
+          url('../fonts/Switzer-Semibold.ttf') format('truetype');
+          font-weight: 600;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Bold';
+    src: url('../fonts/Switzer-Bold.woff2') format('woff2'),
+          url('../fonts/Switzer-Bold.woff') format('woff'),
+          url('../fonts/Switzer-Bold.ttf') format('truetype');
+          font-weight: 700;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Extrabold';
+    src: url('../fonts/Switzer-Extrabold.woff2') format('woff2'),
+          url('../fonts/Switzer-Extrabold.woff') format('woff'),
+          url('../fonts/Switzer-Extrabold.ttf') format('truetype');
+          font-weight: 800;
+          font-display: swap;
+          font-style: normal;
+}
+  
+body, html {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+  
+.nav-text {
+      font-family: 'Switzer-Semibold' !important;
+      font-size: 24px !important;
+      color: #283891 !important;
+}
+  
+.btn-signup {
+      font-family: 'Switzer-Semibold' !important;
+      font-size: 1.2rem !important;
+  
+      --bs-btn-color: white !important;
+      --bs-btn-bg: #283891 !important;
+      --bs-btn-border-color: #283891 !important;
+      --bs-btn-hover-color: white !important;
+      --bs-btn-hover-bg: #212E7A !important;
+      --bs-btn-hover-border-color: #212E7A !important;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+}
+  
+.btn-get-started {
+    font-family: 'Switzer-Semibold' !important;
+    font-size: 1.2rem !important;
+  
+    --bs-btn-color: #283891 !important;
+    --bs-btn-bg: #f8f9fa! important;
+    --bs-btn-border-color: #f8f9fa !important;
+    --bs-btn-hover-color: #212E7A !important;
+    --bs-btn-hover-bg: #d3d4d5 !important;
+    --bs-btn-hover-border-color: #c6c7c8 !important;
+    --bs-btn-focus-shadow-rgb: 211, 212, 213;
+}
+  
+.bg-navbar {
+    background-color: white;
+}
+  
+.white-space-bottom-lg {
+    padding-bottom: 600px;
+    margin: 0;
+}
+  
+.white-space-bottom-md {
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.switzer-extrabold-text {
+    font-family: 'Switzer-ExtraBold';
+    color: #283891;
+}
+  
+.switzer-bold-text {
+    font-family: 'Switzer-Bold';
+    color: #283891;
+}
+  
+.switzer-semibold-text {
+    font-family: 'Switzer-Semibold';
+    color: #283891 !important;
+}
+  
+.switzer-medium-text {
+    font-family: 'Switzer-Medium';
+    color: #283891;
+}
+
+.switzer-extrabold-text-white {
+    font-family: 'Switzer-ExtraBold';
+    color: white;
+}
+
+.switzer-bold-text-white {
+    font-family: 'Switzer-Bold';
+    color: white;
+}
+  
+.switzer-semibold-text-white {
+    font-family: 'Switzer-Semibold';
+    color: white;
+}
+  
+.switzer-medium-text-white {
+    font-family: 'Switzer-Medium';
+    color: white;
+}
+  
+.login {
+    height: 100vh;
+}
+  
+.bg-image {
+    /* background-image: url('assets/img/get-started-bg.png'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-login {
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.py-whats-new {
+    padding-bottom: 3rem !important;
+}
+
+.form-input-style {
+    border-color: #455AAE !important;
+    border-radius: 7px !important;
+    border-width: 2px !important;
+    color:#455AAE !important;
+    font-family: 'Switzer-Medium';
+}
+
+.form-label-style {
+    color: #455AAE !important;
+    font-family: 'Switzer-Semibold';
+}
+
+@media (min-width: 768px) {
+    .custom-mt-7 {
+        margin-top: 0rem !important;
+    }
+
+    .custom-mt-8 {
+        margin-top: 0rem !important;
+    }
+
+    .custom-px-4 {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-mt-7 {
+        margin-top: -10rem !important;
+    }
+
+    .custom-mt-8 {
+        margin-top: -5rem !important;
+    }
+
+    .custom-px-4 {
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+    }
+}
+
+#checkIcon i{
+    margin-top: 40px !important;
+    background:#fff !important;
+    border-radius:50% !important;
+    display:inline-block !important;
+    width:172px !important;
+    height:172px !important;
+    font-size: 172px !important;
+    box-shadow: 3px 5px 26px rgba(76,217,100,0.5) !important;
+    color: #4CD964 !important;
+}
+
+@media (min-width: 1675px) {
+    .custom-col-6-1 {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+    
+    .custom-col-6-2 {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1674px) and (min-width: 1398px) {
+    .custom-col-6-1 {
+        flex: 0 0 auto;
+        width: 60% !important;
+    }
+    
+    .custom-col-6-2 {
+        flex: 0 0 auto;
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 1397px) and (min-width: 1000px) {
+    .custom-col-6-1 {
+        flex: 0 0 auto;
+        width: 70% !important;
+    }
+    
+    .custom-col-6-2 {
+        flex: 0 0 auto;
+        width: 30% !important;
+    }
+}
+
+.tacbox {
+    display:block;
+    max-width: 100%;
+}

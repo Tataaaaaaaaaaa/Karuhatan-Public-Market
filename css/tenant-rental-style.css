@@ -1,0 +1,373 @@
+:root {
+    --card-line-height: 1.2em!important;
+    --card-padding: 1em!important;
+    --card-radius: 0.5em!important;
+    --color-green: #558309!important;
+    --color-gray: #e2ebf6!important;
+    --color-dark-gray: #c4d1e1!important;
+    --radio-border-width: 2px!important;
+    --radio-size: 1.5em!important;
+}
+
+@font-face {
+    font-family: 'Switzer-Variable';
+    src: url('../fonts/Switzer-Variable.woff2') format('woff2'),
+          url('../fonts/Switzer-Variable.woff') format('woff'),
+          url('../fonts/Switzer-Variable.ttf') format('truetype');
+          font-weight: 100 900;
+          font-display: swap;
+          font-style: normal;
+}  
+  
+@font-face {
+    font-family: 'Switzer-Medium';
+    src: url('../fonts/Switzer-Medium.woff2') format('woff2'),
+          url('../fonts/Switzer-Medium.woff') format('woff'),
+          url('../fonts/Switzer-Medium.ttf') format('truetype');
+          font-weight: 500;
+          font-display: swap;
+          font-style: normal;
+}
+  
+  
+@font-face {
+    font-family: 'Switzer-Semibold';
+    src: url('../fonts/Switzer-Semibold.woff2') format('woff2'),
+          url('../fonts/Switzer-Semibold.woff') format('woff'),
+          url('../fonts/Switzer-Semibold.ttf') format('truetype');
+          font-weight: 600;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Bold';
+    src: url('../fonts/Switzer-Bold.woff2') format('woff2'),
+          url('../fonts/Switzer-Bold.woff') format('woff'),
+          url('../fonts/Switzer-Bold.ttf') format('truetype');
+          font-weight: 700;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Extrabold';
+    src: url('../fonts/Switzer-Extrabold.woff2') format('woff2'),
+          url('../fonts/Switzer-Extrabold.woff') format('woff'),
+          url('../fonts/Switzer-Extrabold.ttf') format('truetype');
+          font-weight: 800;
+          font-display: swap;
+          font-style: normal;
+}
+  
+body, html {
+    margin: 0; 
+    padding: 0;
+}
+  
+@media (min-width: 465px) {
+  #kpmLogo {
+      max-height: 100%;
+  }
+}
+
+@media (max-width: 464px) {
+  #kpmLogo {
+      max-height: 50px;
+  }
+}
+
+.nav-text {
+  font-size: calc(0.8rem + 1.31vw) !important;
+  font-family: 'Switzer-Semibold' !important;
+  color: #283891 !important;
+}
+
+@media (min-width: 1200px) {
+  .nav-text {
+      font-size: 1.45rem !important;
+      font-family: 'Switzer-Semibold' !important;
+      color: #283891 !important;
+  }
+}
+
+@media (min-width: 1742px) {
+  #hidden-nav {
+      display: none;
+  }
+
+  #hidden-side-nav {
+      display: block;
+  }
+}
+
+@media (max-width: 1741px) {
+  #hidden-nav {
+      display: block;
+  }
+
+  #hidden-side-nav > div {
+      display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-logo {
+      max-height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-logo {
+      max-height: 50px;
+  }
+}
+  
+.btn-signup {
+      font-family: 'Switzer-Semibold' !important;
+      font-size: 1.2rem !important;
+  
+      --bs-btn-color: white !important;
+      --bs-btn-bg: #283891 !important;
+      --bs-btn-border-color: #283891 !important;
+      --bs-btn-hover-color: white !important;
+      --bs-btn-hover-bg: #212E7A !important;
+      --bs-btn-hover-border-color: #212E7A !important;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: #fff;
+}
+  
+.bg-navbar {
+    background-color: white;
+}
+
+.switzer-extrabold-text {
+    font-family: 'Switzer-ExtraBold';
+    color: #283891;
+}
+  
+.switzer-bold-text {
+    font-family: 'Switzer-Bold';
+    color: #283891;
+}
+  
+.switzer-semibold-text {
+    font-family: 'Switzer-Semibold';
+    color: #283891 !important;
+}
+  
+.switzer-medium-text {
+    font-family: 'Switzer-Medium';
+    color: #283891;
+}
+
+.switzer-extrabold-text-white {
+    font-family: 'Switzer-ExtraBold';
+    color: white;
+}
+
+.switzer-bold-text-white {
+    font-family: 'Switzer-Bold';
+    color: white;
+}
+  
+.switzer-semibold-text-white {
+    font-family: 'Switzer-Semibold';
+    color: white;
+}
+  
+.switzer-medium-text-white {
+    font-family: 'Switzer-Medium';
+    color: white;
+}
+
+footer {
+    background-color: #A4CAF9;
+}
+  
+.custom-icon-color {
+    color: #283891;
+}
+  
+.footer-text {
+    font-family: 'Switzer-Semibold';
+    color: #283891 !important;
+    font-size: 1.2rem !important;
+}
+
+.welcome-name-style {
+    border-bottom: 4px solid #283891;
+    padding-bottom: 5px;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.grid {
+  display: grid !important;
+  grid-gap: var(--card-padding) !important;
+  margin: 0 auto !important;
+  max-width: 80em !important;
+  padding: 0 !important;
+  
+  @media (min-width: 42em) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+.card {
+  background-color: #fff !important;
+  border-radius: var(--card-radius) !important;
+  position: relative !important;
+  
+  &:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+.radio {
+  font-size: inherit!important;
+  margin: 0!important;
+  position: absolute!important;
+  right: calc(var(--card-padding) + var(--radio-border-width))!important;
+  top: calc(var(--card-padding) + var(--radio-border-width))!important;
+}
+
+@supports(-webkit-appearance: none) or (-moz-appearance: none) { 
+  .radio {
+    -webkit-appearance: none !important;
+    -moz-appearance: none!important;
+    background: #fff!important;
+    border: var(--radio-border-width) solid var(--color-gray)!important;
+    border-radius: 50%!important;
+    cursor: pointer!important;
+    height: var(--radio-size)!important;
+    outline: none!important;
+    transition: 
+      background 0.2s ease-out,
+      border-color 0.2s ease-out!important;
+    width: var(--radio-size)!important; 
+
+    &::after {
+      border: var(--radio-border-width) solid #fff!important;
+      border-top: 0!important;
+      border-left: 0!important;
+      content: ''!important;
+      display: block!important;
+      height: 0.75rem!important;
+      left: 25%!important;
+      position: absolute!important;
+      top: 50%!important;
+      transform: 
+        rotate(45deg)
+        translate(-50%, -50%)!important;
+      width: 0.375rem!important;
+    }
+
+    &:checked {
+      background:  #43BD58!important;
+      border-color: #43BD58!important;
+    }
+  }
+  
+  .card:hover .radio {
+    border-color: var(--color-dark-gray)!important;
+    
+    &:checked {
+      border-color: #43BD58!important;
+    }
+  }
+}
+
+.plan-details {
+  border: var(--radio-border-width) solid var(--color-gray)!important;
+  border-radius: var(--card-radius)!important;
+  cursor: pointer!important;
+  display: flex!important;
+  flex-direction: column!important;
+  padding: var(--card-padding)!important;
+  transition: border-color 0.2s ease-out!important;
+}
+
+.card:hover .plan-details {
+  border-color: var(--color-dark-gray)!important;
+}
+
+.radio:checked ~ .plan-details {
+  border-color: #283891!important;
+}
+
+.radio:focus ~ .plan-details {
+  box-shadow: 0 0 0 2px var(--color-dark-gray)!important;
+}
+
+.radio:disabled ~ .plan-details {
+  color: var(--color-dark-gray)!important;
+  cursor: default!important;
+}
+
+.radio:disabled ~ .plan-details .plan-type {
+  color: var(--color-dark-gray)!important;
+}
+
+.card:hover .radio:disabled ~ .plan-details {
+  border-color: var(--color-gray)!important;
+  box-shadow: none!important;
+}
+
+.card:hover .radio:disabled {
+    border-color: var(--color-gray)!important;
+  }
+
+.plan-type {
+  color: #283891!important;
+  font-family: 'Switzer-Bold';
+  font-size: 1.5rem!important;
+  font-weight: bold!important;
+  line-height: 1em!important;
+}
+
+.plan-cost {
+  color:#283891;
+  font-family: 'Switzer-Bold';
+  font-size: 2.5rem!important;
+  font-weight: bold!important;
+  padding: 0.5rem 0!important;
+}
+
+.slash {
+  font-weight: normal!important;
+}
+
+.plan-cycle {
+  font-size: 2rem!important;
+  font-variant: none!important;
+  border-bottom: none!important;
+  cursor: inherit!important;
+  text-decoration: none!important;
+}
+
+@media (min-width: 768px) {
+  .res-justify-content{
+      justify-content: end;
+  }
+
+  .custom-text-center {
+    text-align: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .res-justify-content{
+      justify-content: center;
+  }
+
+  .custom-text-center {
+    text-align: center !important;
+  }
+}

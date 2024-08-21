@@ -1,0 +1,361 @@
+@font-face {
+    font-family: 'Switzer-Variable';
+    src: url('../fonts/Switzer-Variable.woff2') format('woff2'),
+          url('../fonts/Switzer-Variable.woff') format('woff'),
+          url('../fonts/Switzer-Variable.ttf') format('truetype');
+          font-weight: 100 900;
+          font-display: swap;
+          font-style: normal;
+}  
+  
+@font-face {
+    font-family: 'Switzer-Medium';
+    src: url('../fonts/Switzer-Medium.woff2') format('woff2'),
+          url('../fonts/Switzer-Medium.woff') format('woff'),
+          url('../fonts/Switzer-Medium.ttf') format('truetype');
+          font-weight: 500;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Semibold';
+    src: url('../fonts/Switzer-Semibold.woff2') format('woff2'),
+          url('../fonts/Switzer-Semibold.woff') format('woff'),
+          url('../fonts/Switzer-Semibold.ttf') format('truetype');
+          font-weight: 600;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Bold';
+    src: url('../fonts/Switzer-Bold.woff2') format('woff2'),
+          url('../fonts/Switzer-Bold.woff') format('woff'),
+          url('../fonts/Switzer-Bold.ttf') format('truetype');
+          font-weight: 700;
+          font-display: swap;
+          font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Switzer-Extrabold';
+    src: url('../fonts/Switzer-Extrabold.woff2') format('woff2'),
+          url('../fonts/Switzer-Extrabold.woff') format('woff'),
+          url('../fonts/Switzer-Extrabold.ttf') format('truetype');
+          font-weight: 800;
+          font-display: swap;
+          font-style: normal;
+}
+  
+  
+body, html {
+    margin: 0; 
+    padding: 0;
+}
+  
+@media (min-width: 465px) {
+    #kpmLogo {
+        max-height: 100%;
+    }
+}
+  
+@media (max-width: 464px) {
+    #kpmLogo {
+        max-height: 50px;
+    }
+}
+  
+.nav-text {
+    font-size: calc(0.8rem + 1.31vw) !important;
+    font-family: 'Switzer-Semibold' !important;
+    color: #283891 !important;
+}
+  
+@media (min-width: 1200px) {
+    .nav-text {
+        font-size: 1.45rem !important;
+        font-family: 'Switzer-Semibold' !important;
+        color: #283891 !important;
+    }
+}
+  
+@media (min-width: 1517px) {
+    #hidden-nav {
+        display: none;
+    }
+  
+    #hidden-side-nav {
+        display: block;
+    }
+}
+  
+@media (max-width: 1516px) {
+    #hidden-nav {
+        display: block;
+    }
+  
+    #hidden-side-nav > a {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-display-7 {
+      font-size: 7.5rem !important;
+    }
+
+    .custom-display-5 {
+        font-size: 3rem !important;
+    }
+
+    .custom-display-3 {
+        font-size: 4rem;
+        text-align: none;
+    }
+
+    .custom-display-news-title {
+        font-size: 3rem;
+    }
+
+    .custom-py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .custom-my-5 {
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .custom-py-6 {
+        padding-top: 9rem !important;
+        padding-bottom: 9rem !important;
+    }
+
+    .custom-white-space-bottom-md {
+        padding-bottom: 50px;
+        margin: 0;
+    }
+
+    .custom-px-4 {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+    #footer-res {
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .custom-col-9 {
+        flex: 0 0 auto !important;
+        width: 75% !important;
+    }
+
+    .custom-col-6 {
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+
+    .custom-col-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+    .custom-col-10 {
+        flex: 0 0 auto;
+        width: 83.33333333%;
+        text-align: center;
+    }
+
+    #google-map {
+        display: block !important;
+    }
+
+    .custom-text-center {
+        text-align: none !important;
+    }
+
+    .footer-logo {
+        max-height: 100%;
+    }
+}
+  
+@media (max-width: 991px) {
+    .custom-display-7 {
+      font-size: calc(2.4375rem + 1.5vw) !important;
+    }
+
+    .custom-display-5 {
+        font-size: calc(0.95rem + 1.5vw) !important;
+        line-height: 1.5rem !important;
+    }
+
+    .custom-display-3 {
+        font-size: calc(1.95rem + 1.5vw);
+        text-align: center;
+    }
+
+    .custom-display-news-title {
+        font-size: calc(1.15rem + 2.1vw);
+    }
+
+    .custom-py-5 {
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .custom-py-6 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .custom-my-5 {
+        margin-top: 0rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .custom-white-space-bottom-md {
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    .custom-px-4 {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+
+    #footer-res {
+        margin-top: 0rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .custom-col-9 {
+        flex: 0 0 auto !important;
+        width: 91.66666667% !important;
+    }
+
+    .custom-col-6 {
+        flex: 0 0 auto !important;
+        width: 91.66666667% !important;
+    }
+
+    .custom-col-7 {
+        flex: 0 0 auto !important;
+        width: 91.66666667% !important;
+    }
+
+    .custom-col-10 {
+        flex: 0 0 auto !important;
+        width: 91.66666667% !important;
+        text-align: justify;
+    }
+
+    #google-map {
+        display: none !important;
+    }
+
+    .custom-text-center {
+        text-align: center !important;
+    }
+
+    .footer-logo {
+        max-height: 50px;
+    }
+}
+  
+.btn-signup {
+    font-family: 'Switzer-Semibold' !important;
+    font-size: 1.2rem !important;
+
+    --bs-btn-color: white !important;
+    --bs-btn-bg: #283891 !important;
+    --bs-btn-border-color: #283891 !important;
+    --bs-btn-hover-color: white !important;
+    --bs-btn-hover-bg: #212E7A !important;
+    --bs-btn-hover-border-color: #212E7A !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+}
+  
+.btn-get-started {
+    font-family: 'Switzer-Semibold' !important;
+    font-size: 1.2rem !important;
+  
+    --bs-btn-color: #283891 !important;
+    --bs-btn-bg: #f8f9fa! important;
+    --bs-btn-border-color: #f8f9fa !important;
+    --bs-btn-hover-color: #212E7A !important;
+    --bs-btn-hover-bg: #d3d4d5 !important;
+    --bs-btn-hover-border-color: #c6c7c8 !important;
+    --bs-btn-focus-shadow-rgb: 211, 212, 213;
+}
+  
+.bg-navbar {
+    background-color: white;
+}
+
+.switzer-extrabold-text {
+    font-family: 'Switzer-ExtraBold';
+    color: #283891;
+}
+  
+.switzer-bold-text {
+    font-family: 'Switzer-Bold';
+    color: #283891;
+}
+  
+.switzer-semibold-text {
+    font-family: 'Switzer-Semibold';
+    color: #283891 !important;
+}
+  
+.switzer-medium-text {
+    font-family: 'Switzer-Medium';
+    color: #283891;
+}
+
+.switzer-extrabold-text-white {
+    font-family: 'Switzer-ExtraBold';
+    color: white;
+}
+
+.switzer-bold-text-white {
+    font-family: 'Switzer-Bold';
+    color: white;
+}
+  
+.switzer-semibold-text-white {
+    font-family: 'Switzer-Semibold';
+    color: white;
+}
+  
+.switzer-medium-text-white {
+    font-family: 'Switzer-Medium';
+    color: white;
+}
+  
+.about-us-text {
+    font-family: 'Switzer-Semibold';
+    color: white;
+    line-height: 48px;
+}
+  
+.py-whats-new {
+    padding-bottom: 0.9rem;
+}
+  
+footer {
+    background-color: #A4CAF9;
+}
+  
+.custom-icon-color {
+    color: #283891;
+}
+  
+.footer-text {
+    font-family: 'Switzer-Semibold';
+    color: #283891 !important;
+    font-size: 1.2rem;
+}
